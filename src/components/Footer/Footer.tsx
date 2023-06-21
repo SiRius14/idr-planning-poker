@@ -1,4 +1,4 @@
-import { Divider, Link, Slide, Typography } from '@material-ui/core';
+import { Divider, Slide, Typography } from '@material-ui/core';
 import CopyrightIcon from '@material-ui/icons/Copyright';
 import React from 'react';
 import './Footer.css';
@@ -13,21 +13,16 @@ export const Footer = () => {
             <div className='FooterItemContainer'>
               <CopyrightIcon color='secondary' fontSize='small' />
               <Typography color='textSecondary' variant='body2'>
-                hellomuthu23
+                IDR
               </Typography>
             </div>
 
             <Divider orientation='vertical' flexItem></Divider>
             <div className='FooterItemContainer'>
               <Typography color='textSecondary' variant='body2'>
-                Feedback: hellomuthu23@gmail.com
+                Made with Love by Pascal
               </Typography>
             </div>
-
-            <Divider orientation='vertical' flexItem></Divider>
-            <Link href='https://github.com/hellomuthu23/planning-poker/issues'>
-              Submit an Issue
-            </Link>
           </div>
         </div>
       </Slide>
