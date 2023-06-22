@@ -23,7 +23,6 @@ export const Toolbar = () => {
               className='HeaderLeftContainer'
               onClick={() => history.push('/')}
             >
-              <GamesIcon className='HeaderIcon' />
               <Typography variant={isSmallScreen? 'subtitle1':'h5'} color='inherit' noWrap>
                 {title}
               </Typography>
