@@ -26,10 +26,9 @@ export const HomePage = () => {
           <Grid item sm={12} lg={6}>
             <Slide direction="down" in={true} timeout={1000}>
               <div className="HomePageContainer">
-                <Typography variant="h5">IDR Planning Poker App</Typography>
                 <Box padding={2}>
                   <img
-                    alt="IDR Planning Poker App"
+                    alt="IDR Planning Poker"
                     className="HomePageImage"
                     src={LandingImage}
                   ></img>
