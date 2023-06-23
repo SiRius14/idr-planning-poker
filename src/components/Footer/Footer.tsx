@@ -20,7 +20,7 @@ export const Footer = () => {
             <Divider orientation='vertical' flexItem></Divider>
             <div className='FooterItemContainer'>
               <Typography color='textSecondary' variant='body2'>
-                Much Love and Coding ~ pascal
+                Much Love and Coding
               </Typography>
             </div>
           </div>
